@@ -5,7 +5,7 @@ import './Button.css'
 
 const Button = ({text, onClick}) => {
   return (
-    <button onClick={onClick}>{text}</button>
+    <li onClick={onClick}>{text}</li>
   )
 }
 
