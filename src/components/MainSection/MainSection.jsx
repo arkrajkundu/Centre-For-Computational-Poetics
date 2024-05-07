@@ -6,15 +6,28 @@ import MainCard from '../MainCard/MainCard'
 
 const MainSection = () => {
   return (
-    <div className='main'>
-      <MainRectangle text={"Test 1"}/>
+    <div className='column'>
+     {/* { <MainRectangle text={"Test 1"}/>} */}
+      
+      { <MainRectangle text={"Test 1"}/>}
+      <div class="row">
+       <div className="box">
       <MainCard text={"Resource Development Lab"}/>
-      <MainCard/>
-      <MainCard/>
-      <MainCard/>
-      <MainRectangle text={"Test 2"}/>
+      </div>
+      <div className="box"><MainCard/></div>
+      <div className="box"><MainCard/></div>
+      <div className="box"><MainCard/></div>
+      
+      
+      </div>
+      { <MainRectangle text={"Test 2"}/>}
+
+      
+    {/*  {  <MainRectangle text={"Test 2"}/> }  */}
     </div>
   )
 }
 
 export default MainSection
+
+
