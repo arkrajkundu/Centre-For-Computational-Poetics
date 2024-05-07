@@ -5,8 +5,8 @@ import './Title.css'
 const Title = () => {
   return (
     <div className='title'>
-      <div>CENTRE FOR COMPUTATIONAL POETICS</div>
-      <div>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</div>
+      <div className='centre'>CENTRE FOR COMPUTATIONAL POETICS</div>
+      <div className='dept'>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</div>
     </div>
   )
 }
