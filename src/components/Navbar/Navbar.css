@@ -1,8 +1,10 @@
 .navbar{
-  margin: 10px;
+  margin: 0%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom:1%;
+
   /*background-color: lightgreen;*/
 }
 ul{
@@ -12,37 +14,45 @@ ul{
 }
 ul li{
   display: inline;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 600;
   margin: 10px 20px ;
   cursor: pointer;
 }
 ul li:hover{
   color: red;
-  transition: all 0.3s  ease-in-out;
-  font-weight: 800;
+  transition: all 0.18s  ease-in-out;
+  font-weight: 600;
 
 }
 .search-box{
   display: flex;
   align-items: center;
-  background: #242424;
-  padding: 10px;
+  background: #ffffff;
+  /* padding: 0.4rem; */
   border: solid ;
-  border-radius: 50px;
+  border-radius: 2rem;
+  width: 10rem;
+  margin-right:1%;
 
 }
 .search-box input{
-  padding: 3px;
+  padding: 0.1%;
   background: transparent;
   border: 0;
   outline: 0;
-  color: #fff;
-  font-size: 12px;
-  max-width: 150px;
+  color: #000;
+  font-size: 13px;
+  max-width: 100px;
+  font-weight: 600;
 
 }
 .search-box input::placeholder{
-  color: #fff;
+  color: #000;
+}
 
+.search_icon{
+  margin-left: 0rem;
+  width: 1.2rem;
+  height: 1rem;
 }

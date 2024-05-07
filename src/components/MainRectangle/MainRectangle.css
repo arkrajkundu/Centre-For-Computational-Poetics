@@ -1,9 +1,13 @@
 .rectangle {
-  height: 700px;
-  width: 530px;
+  height: 40rem;
+  width: 20rem;
   border: 3px solid red;
-  margin-top: 8px;
-  margin-bottom: 15px;
-  margin-left: 5px ;
-  margin-right: 5px;
+  margin-top: 7%;
+  margin-bottom: 1%;
+  margin-left: 0.5rem ;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  font-weight: 600;
+
 }
