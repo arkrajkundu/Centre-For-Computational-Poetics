@@ -6,25 +6,26 @@ import MainCard from '../MainCard/MainCard'
 
 const MainSection = () => {
   return (
-    <div className='column'>
-     {/* { <MainRectangle text={"Test 1"}/>} */}
-      
-      { <MainRectangle text={"Test 1"}/>}
-      <div class="row">
-       <div className="box">
-      <MainCard text={"Resource Development Lab"}/>
+    <div className='pooragadbadstructuretha'>
+      <div>
+        { <MainRectangle text={"Computational Lab, developed by BIT Mesra Computer Science Department. Computational Lab, developed by BIT Mesra Computer Science Department. Computational Lab, developed by BIT Mesra Computer Science Department.  Floating News and others will be displayed here!"}/>}
       </div>
-      <div className="box"><MainCard/></div>
-      <div className="box"><MainCard/></div>
-      <div className="box"><MainCard/></div>
-      
-      
+      <div className='column'>
+        <div class="row1">
+          <div className="box"><MainCard text={"Resource Development Lab"}/></div>
+          <div className="box"><MainCard text={"Dictionaries"}/></div>
+        </div>
+        <div class="row2">
+          <div className="box"><MainCard text={"Tools and Documentations"}/></div>
+          <div className="box"><MainCard text={"Others.."}/></div>
+        </div>
       </div>
-      { <MainRectangle text={"Test 2"}/>}
-
-      
-    {/*  {  <MainRectangle text={"Test 2"}/> }  */}
+      <div>
+        { <MainRectangle text={"Here other things will be displayed.."}/>}
+      </div>
+    
     </div>
+    
   )
 }
 

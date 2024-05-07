@@ -1,5 +1,6 @@
 
 .title {
+  /* margin-top: 10%; */
   margin: 2px;
   padding-left: 10px;
   display: flex;
@@ -7,14 +8,31 @@
   
 }
 .centre{
-  font-size: 55px;
+  margin-top: 1%;
+  font-size: 3rem;
   font-weight: 600;
   padding-left: 10px;
   
 }
 .dept{
-  font-size: 30px;
-  padding: 0px 0px 0px 110px;
-  
-  
+  font-size: 1.3rem;
+  padding: 0px 0px 0px 10rem;
+  font-style: italic;
 }
+.chota_title{
+  font-size: 1rem;
+  padding: 0px 0px 0px 20rem;
+  margin-bottom:1% ;
+}
+
+.BIT{
+  margin-top: 1%;
+  font-size: 1rem;
+  padding: 0px 0px 0px 19rem;
+}
+
+.pin{
+  font-size: 1rem;
+  padding: 0px 0px 0px 22rem;
+}
+
