@@ -20,15 +20,71 @@
   width: 20rem;
   height: 16rem;
   border-radius: 1rem;
-  border: 0.5rem solid #8cfc73;
-  padding:10%;
-  padding-bottom: 12.5%;
+  border: 0.5rem;/*  solid #8cfc73 */
+ /*  padding:10%;
+  padding-bottom: 12.5%; */
   margin-right: 1rem;
   margin-left: 1rem;
   font-weight: 600;
-
+  background-color: rgba(255, 255, 255, 0.9);
+  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  perspective: 1000px;
+  transition: transform 0.5s ease;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.glass-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  pointer-events: none; /* Allows click-through */
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+  z-index: 1;
+  opacity: 0; /* Initially transparent */
 }
 
+.box:hover .glass-overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.box:hover {
+  transform: perspective(1000px) rotateY(15deg) rotateX(8deg);
+}
+
+.card-inner {
+  transform-style: preserve-3d;
+  height: 100%;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  z-index: 2;
+  transform: translateZ(25px);
+  background-color: #f0f0f0;
+}
+
+.card-back {
+  transform: rotateY(180deg) translateZ(25px);
+  background-color: #e0e0e0;
+}
+
+.card-content {
+  padding: 20px;
+}
 
 
 /* .column {

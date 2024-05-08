@@ -12,12 +12,63 @@ const MainSection = () => {
       </div>
       <div className='column'>
         <div class="row1">
-          <div className="box"><MainCard text={"Resource Development Lab"}/></div>
-          <div className="box"><MainCard text={"Dictionaries"}/></div>
+          <div className="box">
+          <div class="glass-overlay"></div>
+          <div class="card-inner">
+          <div class="card-front">
+          <div class="card-content">
+            <MainCard text={"Resource Development Lab"}/>
+            </div>
+        </div>
+        <div class="card-back"></div>
+        </div>
+         </div>
+
+         <div className="box">
+          <div class="glass-overlay"></div>
+          <div class="card-inner">
+          <div class="card-front">
+          <div class="card-content">
+            <MainCard text={"Dictionaries"}/>
+            </div>
+        </div>
+        <div class="card-back"></div>
+        </div>
+         </div>
+
+          {/* <div className="box"><MainCard text={"Dictionaries"}/></div>
+        </div> */}
         </div>
         <div class="row2">
-          <div className="box"><MainCard text={"Tools and Documentations"}/></div>
-          <div className="box"><MainCard text={"Others.."}/></div>
+
+        <div className="box">
+          <div class="glass-overlay"></div>
+          <div class="card-inner">
+          <div class="card-front">
+          <div class="card-content">
+            <MainCard text={"Tools and Documentations"}/>
+            </div>
+        </div>
+        <div class="card-back"></div>
+        </div>
+         </div>
+
+         <div className="box">
+          <div class="glass-overlay"></div>
+          <div class="card-inner">
+          <div class="card-front">
+          <div class="card-content">
+            <MainCard text={"Others.."}/>
+            </div>
+        </div>
+        <div class="card-back"></div>
+        </div>
+         </div>
+
+
+
+          {/* <div className="box"><MainCard text={"Tools and Documentations"}/></div>
+          <div className="box"><MainCard text={"Others.."}/></div> */}
         </div>
       </div>
       <div>
