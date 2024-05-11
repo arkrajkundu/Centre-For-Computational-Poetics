@@ -4,30 +4,30 @@ import React from 'react'
 import './Navbar.css'
 import Button from '../Button/Button'
 import Searchbar from '../Searchbar/Searchbar'
+import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({ setShowLogin }) => {
   return (
     <div className='navbar'>
       <ul>
-        <Button text='About Us'/>
-        <Button text='Collaborations'/>
-        <Button text='Faculty Team'/>
-        <Button text='Students Team'/>
-        <Button text='News'/>
-        <Button text='Events'/>
-        <Button text='Publications'/>
-        <Button text='Contact Us'/>
-        <Button text='Login'/>
-        
-        </ul>
-        
-        <div className='search-box'>
-          <img className='search_icon' src="icon.png" alt="" />
-          <input type="text" placeholder='Search' />
-          
+        <Link to='/about-us'><Button text='About Us' /></Link>
+        <Link to='#'><Button text='Collaborations' /></Link>
+        <Link to='/faculty-team'><Button text='Faculty Team' /></Link>
+        <Link to='/students-team'><Button text='Students Team' /></Link>
+        <Link to='#'><Button text='News' /></Link>
+        <Link to='#'><Button text='Events' /></Link>
+        <Link to='#'><Button text='Publications' /></Link>
+        <Link to='/contact-us'><Button text='Contact Us' /></Link>
+        <Button text='Log In' onClick={() => setShowLogin(true)} />
+      </ul>
 
-        </div>
-      
+      <div className='search-box'>
+        <img className='search_icon' src="icon.png" alt="" />
+        <input type="text" placeholder='Search' />
+
+
+      </div>
+
     </div>
   )
 }
