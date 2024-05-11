@@ -1,38 +1,39 @@
-
 .title {
   /* margin-top: 10%; */
   margin: 2px;
   padding-left: 10px;
   display: flex;
   flex-direction: column;
-  
+
 }
-.centre{
-  margin-top: 1%;
+
+.centre {
+  /* margin-top: 1%; */
   font-size: 3rem;
   font-weight: 600;
   padding-left: 10px;
-  
+
 }
-.dept{
+
+.dept {
   font-size: 0.9rem;
   padding: 0px 0px 0px 14.3rem;
   font-style: italic;
 }
-.chota_title{
+
+.chota_title {
   font-size: 1rem;
   padding: 0px 0px 0px 20rem;
-  margin-bottom:1% ;
+  /* margin-bottom: 1%; */
 }
 
-.BIT{
-  margin-top: 1%;
+.BIT {
+  /* margin-top: 1%; */
   font-size: 1.4rem;
   padding: 0px 0px 0px 15.4rem;
 }
 
-.pin{
+.pin {
   font-size: 1rem;
   padding: 0px 0px 0px 21rem;
 }
-
