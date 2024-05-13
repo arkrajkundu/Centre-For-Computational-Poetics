@@ -15,11 +15,12 @@ const MainSection = () => {
       <div className='column'>
         <div class="row1">
           <div className="box">
-            <div class="glass-overlay"></div>
+            <div class="glass-overlay">
+            </div>
             <div class="card-inner">
-              <div class="card-front">
+              <div class="card-front rdl">
                 <div class="card-content">
-                  <MainCard text={"Resource Development Lab"} img={assets.rdl} />
+                  <MainCard text={"Resource\nDevelopment\nLab"} />
                 </div>
               </div>
               <div class="card-back"></div>
@@ -29,9 +30,9 @@ const MainSection = () => {
           <div className="box">
             <div class="glass-overlay"></div>
             <div class="card-inner">
-              <div class="card-front">
+              <div class="card-front spl">
                 <div class="card-content">
-                  <MainCard text={"Dictionaries"} />
+                  <MainCard text={"Speech Processing Lab"} />
                 </div>
               </div>
               <div class="card-back"></div>
@@ -46,9 +47,9 @@ const MainSection = () => {
           <div className="box">
             <div class="glass-overlay"></div>
             <div class="card-inner">
-              <div class="card-front">
+              <div class="card-front hcl">
                 <div class="card-content">
-                  <MainCard text={"Tools and Documentations"} />
+                  <MainCard text={"Heritage Computing Lab"} />
                 </div>
               </div>
               <div class="card-back"></div>
@@ -58,9 +59,9 @@ const MainSection = () => {
           <div className="box">
             <div class="glass-overlay"></div>
             <div class="card-inner">
-              <div class="card-front">
+              <div class="card-front ptl">
                 <div class="card-content">
-                  <MainCard text={"Others.."} />
+                  <MainCard text={"Poetry Therapeutics Lab"} />
                 </div>
               </div>
               <div class="card-back"></div>

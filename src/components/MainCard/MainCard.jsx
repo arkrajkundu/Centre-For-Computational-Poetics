@@ -1,11 +1,12 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useState } from 'react'
 import './MainCard.css'
 
-const MainCard = ({ text, img }) => {
+const MainCard = (props) => {
+  const [text, setText] = useState(props.text);
   return (
-    <div style={{ background: `url(${img})` }} className='card'>
+    <div className='card-content'>
       {text}
     </div>
   )

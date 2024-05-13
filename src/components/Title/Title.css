@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 .title {
   margin: 2px;
   padding-left: 10px;
@@ -45,3 +47,11 @@
   justify-content: center;
   align-items: center;
 } */
+
+.tagline {
+  font-family: "Dancing Script";
+  text-align: right;
+  font-weight: bold;
+  font-size: 22px;
+  color: crimson;
+}
