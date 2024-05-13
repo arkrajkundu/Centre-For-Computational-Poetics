@@ -5,7 +5,8 @@
   align-items: center;
   margin-bottom: 1%;
 
-  /*background-color: lightgreen;*/
+  background-color: black;
+  color: white;
 }
 
 ul {

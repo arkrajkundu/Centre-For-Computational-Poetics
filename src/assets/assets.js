@@ -7,6 +7,13 @@ import Image4 from './image4.jpg'
 import Image5 from './image5.jpg'
 import Image6 from './image6.jpg'
 import crossIcon from './crossIcon.png'
+import ark from './ark.png'
+import aman from './aman.png'
+import vishal from './vishal.png'
+import srivastava from './srivastava.png'
+import shresth from './shresth.png'
+import shlok from './shlok.png'
+import rdl from './rdl.png'
 
 export const assets = {
   LabLogo,
@@ -17,11 +24,22 @@ export const assets = {
   Image3,
   Image4,
   Image5,
-  Image6
+  Image6,
+  ark,
+  srivastava,
+  aman,
+  vishal,
+  shresth,
+  shlok,
+  rdl
 }
 
 export const carouselData = {
   "slides": [
+    {
+      "src": shlok,
+      "alt": "Any"
+    },
     {
       "src": Image1,
       "alt": "Image 1"

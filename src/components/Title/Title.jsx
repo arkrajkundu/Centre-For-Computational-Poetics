@@ -9,7 +9,7 @@ const Title = () => {
       <div className='chota_title'>(A Centre of Excellence Lab)</div>
       <div className='dept'>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</div>
       <div className='BIT'>Birla Institute of Technology Mesra</div>
-      <div className='pin'>Ranchi - 83521 (INDIA) </div>
+      <div className='pin'>Ranchi - 835215 (INDIA) </div>
     </div>
   )
 }

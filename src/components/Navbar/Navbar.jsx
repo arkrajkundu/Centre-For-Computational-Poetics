@@ -10,6 +10,7 @@ const Navbar = ({ setShowLogin }) => {
   return (
     <div className='navbar'>
       <ul>
+        <Link to='/'><Button text='Home' /></Link>
         <Link to='/about-us'><Button text='About Us' /></Link>
         <Link to='#'><Button text='Collaborations' /></Link>
         <Link to='/faculty-team'><Button text='Faculty Team' /></Link>

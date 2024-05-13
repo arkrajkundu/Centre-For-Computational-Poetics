@@ -3,9 +3,9 @@
 import React from 'react'
 import './MainCard.css'
 
-const MainCard = ({text}) => {
+const MainCard = ({ text, img }) => {
   return (
-    <div className='card'>
+    <div style={{ background: `url(${img})` }} className='card'>
       {text}
     </div>
   )
