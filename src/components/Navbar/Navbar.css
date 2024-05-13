@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1%;
-
+  margin-top: 10px;
   background-color: black;
   color: white;
 }
@@ -24,10 +24,9 @@ ul li {
 }
 
 ul li:hover {
-  color: red;
-  transition: all 0.18s ease-in-out;
-  font-weight: 600;
-
+  color: aquamarine;
+  transition: all 0.3s ease-in-out;
+  /* font-weight: 700; */
 }
 
 .search-box {
@@ -35,6 +34,7 @@ ul li:hover {
   align-items: center;
   background: #ffffff;
   /* padding: 0.4rem; */
+  margin: 0.4rem;
   border: solid;
   border-radius: 2rem;
   width: 10rem;

@@ -3,7 +3,7 @@ import './StudentsBodyBatch.css'
 
 const StudentsBodyBatch = ({ batch }) => {
   return (
-    <h3>{batch}</h3>
+    <h3 className='students-batch'>{batch}</h3>
   )
 }
 

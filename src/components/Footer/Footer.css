@@ -1,0 +1,10 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ccp-heads {
+  text-align: center;
+  font-size: 50px;
+}

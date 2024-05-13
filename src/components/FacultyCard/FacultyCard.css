@@ -1,7 +1,7 @@
-.student-profile {
+.faculty-profile {
   display: flex;
   flex-direction: column;
-  background: aquamarine;
+  background: white;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   align-items: center;
   justify-content: center;
@@ -9,33 +9,33 @@
   margin: 15px;
   transition: 0.3s;
   border-radius: 20px;
+  transform: scale(85%);
+  max-width: 30rem;
 }
 
-.student-profile:hover {
+.faculty-profile:hover {
   background: hsla(160, 100%, 75%, 1);
   background: linear-gradient(135deg, hsla(160, 100%, 75%, 1) 0%, hsla(190, 53%, 56%, 1) 67%);
   background: -moz-linear-gradient(135deg, hsla(160, 100%, 75%, 1) 0%, hsla(190, 53%, 56%, 1) 67%);
   background: -webkit-linear-gradient(135deg, hsla(160, 100%, 75%, 1) 0%, hsla(190, 53%, 56%, 1) 67%);
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#7FFFD4", endColorstr="#54B6CA", GradientType=1);
-  transform: scale(1.05);
+  transform: scale(90%);
   transition: 0.3s ease-in;
-  /* box-shadow: 0 8px 16px aquamarine; */
-  /* animation: fadeIn 0.5s; */
 }
 
-.student-profile img {
+.faculty-profile img {
   height: 15rem;
   border-radius: 50%;
 }
 
-.student-profile h4 {
+.faculty-profile h4 {
   margin-bottom: 10px;
   margin-top: 10px;
   font-weight: 700;
   font-size: 23px;
 }
 
-.student-profile p {
+.faculty-profile p {
   font-size: 16px;
 }
 
@@ -47,23 +47,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.icons:hover {
-  transform: none;
-}
-
-.linkedin,
-.github,
-.instagram,
-.email {
   transition: 0.3s;
 }
 
-.linkedin:hover,
-.github:hover,
-.instagram:hover,
-.email:hover {
+
+.icons:hover {
   transform: scale(1.15);
 }
 

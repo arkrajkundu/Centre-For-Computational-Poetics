@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row :nth-child(1) {
+  /* background-color: aquamarine; */
+}
+
+.student-body-container {
+  /* background-color: aquamarine; */
+}

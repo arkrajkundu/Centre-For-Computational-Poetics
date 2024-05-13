@@ -3,7 +3,7 @@ import './StudentsBodyTitle.css'
 
 const StudentsBodyTitle = () => {
   return (
-    <h2>Students Body</h2>
+    <h2 className='students-body'>Student Body</h2>
   )
 }
 
