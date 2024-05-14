@@ -6,12 +6,15 @@ import aman from './aman.png'
 import vishal from './vishal.jpg'
 import srivastava from './srivastava.jpg'
 import shresth from './shresth.png'
-import shlok from './shlok.png'
 import rdl from './rdl.png'
 import raj from './raj.png'
 import sumit from './sumit.png'
 import itu from './itu.jpg'
 import nks from './nks.jpg'
+import shlok1 from './shlok1.png'
+import shlok2 from './shlok2.png'
+import shlok3 from './shlok3.png'
+import shlok4 from './shlok4.png'
 
 export const assets = {
   LabLogo,
@@ -22,7 +25,6 @@ export const assets = {
   aman,
   vishal,
   shresth,
-  shlok,
   rdl,
   raj,
   sumit,
@@ -33,24 +35,20 @@ export const assets = {
 export const carouselData = {
   "slides": [
     {
-      "src": shlok,
-      "alt": "Any"
+      "src": shlok1,
+      "alt": "Shlok 1"
     },
     {
-      "src": shlok,
-      "alt": "Image 1"
+      "src": shlok2,
+      "alt": "Shlok 2"
     },
     {
-      "src": shlok,
-      "alt": "Image 2"
+      "src": shlok3,
+      "alt": "Shlok 3"
     },
     {
-      "src": shlok,
-      "alt": "Image 3"
-    },
-    {
-      "src": shlok,
-      "alt": "Image 4"
+      "src": shlok4,
+      "alt": "Shlok 4"
     }
   ]
 }
