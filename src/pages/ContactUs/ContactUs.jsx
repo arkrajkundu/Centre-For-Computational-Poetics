@@ -2,11 +2,14 @@
 
 import React from 'react'
 import './ContactUs.css'
+import ContactUsHeader from '../../components/ContactUsHeader/ContactUsHeader'
+import ContactUsMain from '../../components/ContactUsMain/ContactUsMain'
+import ContactUsFooter from '../../components/ContactUsFooter/ContactUsFooter'
 
 const ContactUs = () => {
   return (
     <div>
-      <h1>Contact Us</h1>
+      <ContactUsHeader />
     </div>
   )
 }

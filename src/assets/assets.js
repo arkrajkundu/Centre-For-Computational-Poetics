@@ -15,6 +15,7 @@ import shlok1 from './shlok1.png'
 import shlok2 from './shlok2.png'
 import shlok3 from './shlok3.png'
 import shlok4 from './shlok4.png'
+import contactUsHeader from './contact-us-header.png'
 
 export const assets = {
   LabLogo,
@@ -29,7 +30,8 @@ export const assets = {
   raj,
   sumit,
   nks,
-  itu
+  itu,
+  contactUsHeader
 }
 
 export const carouselData = {

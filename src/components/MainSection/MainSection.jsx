@@ -10,7 +10,12 @@ const MainSection = () => {
   return (
     <div className='pooragadbadstructuretha'>
       <div>
-        {<MainRectangle text={"Computational Lab, developed by BIT Mesra Computer Science Department. Computational Lab, developed by BIT Mesra Computer Science Department. Computational Lab, developed by BIT Mesra Computer Science Department.  Floating News and others will be displayed here!"} />}
+        <div>
+          {<MainRectangle texttop={"Computational Lab, developed by BIT Mesra Computer Science Department. Computational Lab, developed by BIT Mesra Computer Science Department. Computational Lab, developed by BIT Mesra Computer Science Department.  Floating News and others will be displayed here!"}
+          />}
+        </div>
+        <div>
+        </div>
       </div>
       <div className='column'>
         <div class="row1">
@@ -75,7 +80,7 @@ const MainSection = () => {
         </div>
       </div>
       <div>
-        {<MainRectangle text={"Here other things will be displayed.."} />}
+        {<MainRectangle header={"Our current focus"} texttop={"• Poetry for Child Education\n• The Therapeutic Power of Poetry\n\n⚫ Mega Hindi Dictionary"} textbottom={"Wish to contribute?"} invitelink={"Join us!"} />}
       </div>
 
     </div>

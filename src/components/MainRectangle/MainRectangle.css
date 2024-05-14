@@ -4,10 +4,35 @@
   border: 3px solid red;
   margin-top: 7%;
   margin-bottom: 1%;
-  margin-left: 0.5rem ;
+  margin-left: 0.5rem;
   margin-right: 1rem;
   border-radius: 1rem;
   padding: 2rem;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
 
+.texttop {
+  flex: 3;
+  white-space: pre-wrap;
+}
+
+.textbottom {
+  flex: 4;
+  white-space: pre-wrap;
+}
+
+.rectangle-footer {
+  flex: 1;
+}
+
+.rectangle-header {
+  flex: 1;
+  font-size: 23px;
+  color: blue;
+}
+
+.rectangle-invite {
+  flex: 1;
 }
