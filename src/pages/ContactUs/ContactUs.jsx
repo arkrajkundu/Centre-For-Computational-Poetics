@@ -10,6 +10,7 @@ const ContactUs = () => {
   return (
     <div>
       <ContactUsHeader />
+      <ContactUsFooter />
     </div>
   )
 }

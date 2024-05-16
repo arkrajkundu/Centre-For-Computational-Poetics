@@ -2,10 +2,6 @@
 
 import React from 'react'
 import './StudentsTeam.css'
-import StudentsBodyBatch from '../../components/StudentsBodyBatch/StudentsBodyBatch'
-import StudentsBodyTitle from '../../components/StudentsBodyTitle/StudentsBodyTitle'
-import StudentsCard from '../../components/StudentsCard/StudentsCard'
-import { assets } from '../../assets/assets'
 import StudentBodyContainer from '../../components/StudentBodyContainer/StudentBodyContainer'
 
 const StudentsTeam = () => {

@@ -15,7 +15,8 @@ const ContactUsMain = () => {
           <input type="text" placeholder='Phone' />
         </div>
       </form>
-      <textarea name="message" id=""></textarea>
+      <textarea className='contact-us-text-area' name="message" id="" placeholder='Enter your message'></textarea>
+      <button className="contact-us-submit">Submit</button>
     </div>
   )
 }

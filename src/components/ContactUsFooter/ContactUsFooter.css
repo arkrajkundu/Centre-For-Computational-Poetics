@@ -1,3 +1,20 @@
-.contact-us-footer p {
-  white-space: pre-wrap;
+.contact-us-footer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 19px;
+}
+
+.contact-us-email-address {
+  /* margin-bottom: 15px; */
+}
+
+.contact-us-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

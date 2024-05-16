@@ -9,6 +9,11 @@ import StudentsTeam from './pages/StudentsTeam/StudentsTeam'
 import FacultyTeam from './pages/FacultyTeam/FacultyTeam'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import Navbar from './components/Navbar/Navbar'
+import PageFooter from './components/PageFooter/PageFooter'
+import Collaborations from './pages/Collaborations/Collaborations'
+import News from './pages/News/News'
+import Events from './pages/Events/Events'
+import Publications from './pages/Publications/Publications'
 
 const App = () => {
 
@@ -23,10 +28,15 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='about-us' element={<AboutUs />} />
-          <Route path='contact-us' element={<ContactUs />} />
-          <Route path='students-team' element={<StudentsTeam />} />
+          <Route path='collaborations' element={<Collaborations />} />
           <Route path='faculty-team' element={<FacultyTeam />} />
+          <Route path='students-team' element={<StudentsTeam />} />
+          <Route path='news' element={<News />} />
+          <Route path='events' element={<Events />} />
+          <Route path='publications' element={<Publications />} />
+          <Route path='contact-us' element={<ContactUs />} />
         </Routes>
+        <PageFooter />
       </div>
     </>
   )

@@ -38,26 +38,3 @@ a {
     transform: translateY(0);
   }
 }
-
-/* 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 100%;
-  }
-} */
-
-@keyframes typing {
-  0% {
-    width: 0;
-    transform: translateX(-50%) scaleX(0);
-  }
-
-  100% {
-    width: 200%;
-    transform: translateX(-50%) scaleX(1);
-  }
-}

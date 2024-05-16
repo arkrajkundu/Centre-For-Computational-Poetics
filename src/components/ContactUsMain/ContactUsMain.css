@@ -1,9 +1,58 @@
 .get-in-touch {
-  margin-bottom: 20px;
-  background-color: pink;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+  animation: fadeInUp 1s;
 }
 
 .contact-us-main {
   display: flex;
   flex-direction: column;
+  padding: 20px 60px;
+  border-radius: 15px;
+}
+
+.multi-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-us-main input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  /* border: 1px solid #c5c5c5; */
+  border-radius: 4px;
+  border: none;
+}
+
+.contact-us-main input:focus,
+.contact-us-text-area:focus {
+  outline: 2.5px solid rgb(45, 250, 182);
+}
+
+.contact-us-text-area {
+  padding: 8px;
+  min-height: 12vw;
+  min-width: 35vw;
+  outline-color: aquamarine;
+  border: none;
+  border-radius: 8px;
+}
+
+.contact-us-submit {
+  background-color: rgb(45, 250, 182);
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.contact-us-submit:hover {
+  background-color: aquamarine;
+}
+
+.contact-us-submit:active {
+  background-color: rgb(45, 250, 182);
 }
