@@ -6,6 +6,8 @@ import MainSection from '../../components/MainSection/MainSection'
 import Carousel from '../../components/Carousel/Carousel'
 import { carouselData } from '../../assets/assets'
 import Footer from '../../components/Footer/Footer'
+import SecondSection from '../../components/SecondSection/SecondSection'
+import Testimonials from '../../components/Testimonials/Testimonials'
 
 const Home = () => {
 
@@ -17,7 +19,9 @@ const Home = () => {
       {/* <Navbar /> */}
       <Carousel data={carouselData.slides} />
       <MainSection />
-      <Footer />
+      <SecondSection />
+      <Testimonials />
+      {/* <Footer /> */}
     </div>
   )
 }

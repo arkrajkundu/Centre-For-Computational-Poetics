@@ -1,6 +1,7 @@
 import React from 'react'
 import './RightRectangle.css'
 import { Link } from 'react-router-dom'
+import { assets } from '../../assets/assets'
 
 const RightRectangle = () => {
   return (
@@ -16,6 +17,7 @@ const RightRectangle = () => {
       <div className='contribute'>
         <p>Wish to contribute? <Link to='/contact-us'><span>Join us!</span></Link></p>
       </div>
+      {/* <img src={assets.wordCloud} alt="" /> */}
     </div>
   )
 }

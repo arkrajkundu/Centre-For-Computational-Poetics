@@ -25,6 +25,13 @@ import linkedinIcon from './linkedinIcon.svg'
 import instagramIcon from './instagramIcon.svg'
 import githubIcon from './githubIcon.svg'
 import komal from './komal.jpg'
+import RPaGenImage from './RPaGenImage.png'
+import RMaGenImage from './RMaGenImage.png'
+import Text2MatraImage from './Text2MatraImage.png'
+import FVRCaiImage from './FVRCaiImage.png'
+import FvFoSCaiImage from './FvFoSCaiImage.png'
+import FoSCal from './FoSCal.png'
+import wordCloud from './wordCloud.png'
 
 export const assets = {
   LabLogo,
@@ -41,6 +48,7 @@ export const assets = {
   nks,
   itu,
   contactUsHeader,
+  wordCloud,
   collab1,
   rightArrow,
   addressIcon,
@@ -49,7 +57,13 @@ export const assets = {
   instagramIcon,
   githubIcon,
   emailIcon,
-  komal
+  komal,
+  FoSCal,
+  FvFoSCaiImage,
+  FVRCaiImage,
+  RMaGenImage,
+  RPaGenImage,
+  Text2MatraImage
 }
 
 export const carouselData = {

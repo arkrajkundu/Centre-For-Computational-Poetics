@@ -4,7 +4,7 @@ import Event from '../../components/Event/Event'
 
 const Events = () => {
   return (
-    <div>
+    <div className='events'>
       <Event title={"Summer Internship Programme 2024"} duration={"1st May 2024 to 30th June 2024"} />
     </div>
   )

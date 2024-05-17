@@ -1,0 +1,17 @@
+.testimonial {
+  display: flex;
+  margin: 25px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  height: 175px;
+}
+
+.testimonial .testimonial-content .by {
+  display: flex;
+  justify-content: end;
+  font-weight: 700;
+}

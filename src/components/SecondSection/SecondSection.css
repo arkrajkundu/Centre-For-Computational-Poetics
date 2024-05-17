@@ -1,0 +1,12 @@
+.second-section h2 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.second-section .tools-info :nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.second-section .tools-info {
+  margin: 10px 200px;
+}

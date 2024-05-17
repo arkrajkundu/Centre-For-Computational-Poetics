@@ -1,0 +1,12 @@
+.tool-desc-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 350px; */
+  width: 100%;
+  border-radius: 1px solid blue;
+}
+
+.tool-desc-container img {
+  /* height: 140px; */
+}

@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
   height: 7vh;
 }
@@ -17,7 +17,7 @@
 
 .navbar ul li {
   display: inline;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 600;
   margin: 10px 20px;
   cursor: pointer;
