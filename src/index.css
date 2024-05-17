@@ -10,6 +10,13 @@
 
 body {
   min-height: 100vh;
+  /* background: linear-gradient(135deg, #FFF1EB, #ACE0F9); */
+  /* Example for Soft Sunrise */
+  background: linear-gradient(145deg, #FFDEE9, #B5FFFC 50%, #FFFFFF 100%);
+  box-shadow: 20px 20px 60px #d1d1d1, -20px -20px 60px #ffffff;
+
+
+
 }
 
 a {

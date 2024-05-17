@@ -9,7 +9,7 @@ const StudentBodyContainer = () => {
   return (
     <div className='student-body-container'>
       <StudentsBodyTitle />
-      <StudentsBodyBatch batch="2022 - 23" />
+      <StudentsBodyBatch batch="2024 - 25" />
       <div className='row'>
         <StudentsCard img={assets.raj} name="Raj Aryan" branch="Computer Science and Engineering" batch="2021-25" linkedin="https://www.linkedin.com/in/thatrajaryan/" github="https://github.com/rajaryan18" instagram="https://www.instagram.com/thatrajaryan/" email="mailto:btech10078.21@bitmesra.ac.in" />
         <StudentsCard img={assets.sumit} name="Sumit Agarwal" branch="Computer Science and Engineering" batch="2021-25" linkedin="https://www.linkedin.com/in/sumit-agarwal2002/" github="https://github.com/sumit2002agarwal" instagram="https://www.instagram.com/agarwal_obviously/" email="mailto:btech10067.21@bitmesra.ac.in" />

@@ -1,0 +1,13 @@
+.faculty-body {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .faculty-body {
+    opacity: 0;
+    /* transform: translateY(20px); */
+    animation: fadeInUp 0.8s ease forwards;
+    /* background-image: linear-gradient(to bottom right, #9bf8f4, #6f7bf7); */
+    /* color: #6f7bf7; */
+  }

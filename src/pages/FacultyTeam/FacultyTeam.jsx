@@ -2,11 +2,12 @@
 
 import React from 'react'
 import './FacultyTeam.css'
+import FacultyBodyContainer from '../../components/FacultyBodyContainer/FacultyBodyContainer'
 
 const FacultyTeam = () => {
   return (
-    <div>
-      <h1>Faculty Team</h1>
+    <div style={{ paddingTop: "30px" }}>
+      <FacultyBodyContainer />
     </div>
   )
 }

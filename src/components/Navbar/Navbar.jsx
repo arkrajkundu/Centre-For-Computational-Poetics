@@ -22,12 +22,12 @@ const Navbar = ({ setShowLogin }) => {
         <Button text='Log In' onClick={() => setShowLogin(true)} />
       </ul>
 
-      <div className='search-box'>
+      {/* <div className='search-box'>
         <img className='search_icon' src="icon.png" alt="" />
         <input type="text" placeholder='Search' />
 
 
-      </div>
+      </div> */}
 
     </div>
   )

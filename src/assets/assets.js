@@ -24,6 +24,7 @@ import emailIcon from './emailIcon.svg'
 import linkedinIcon from './linkedinIcon.svg'
 import instagramIcon from './instagramIcon.svg'
 import githubIcon from './githubIcon.svg'
+import komal from './komal.jpg'
 
 export const assets = {
   LabLogo,
@@ -47,7 +48,8 @@ export const assets = {
   linkedinIcon,
   instagramIcon,
   githubIcon,
-  emailIcon
+  emailIcon,
+  komal
 }
 
 export const carouselData = {

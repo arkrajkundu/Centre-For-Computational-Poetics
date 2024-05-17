@@ -1,8 +1,8 @@
-.row {
+.student-body-container .row {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(127, 255, 212, 0.4);
+  /* background-color: rgb(127, 255, 212, 0.4); */
 }
 
 .row :nth-child(1) {
