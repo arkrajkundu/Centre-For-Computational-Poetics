@@ -16,6 +16,7 @@
 .left-rectangle-section {
   /* border: 1px solid blue; */
   margin: 10px 0px;
+  text-align: justify;
 }
 
 .left-rectangle .left-rectangle-section span {

@@ -5,8 +5,10 @@
   /* padding-left: 350px; */
   width: 100%;
   border-radius: 1px solid blue;
+  margin-bottom: 50px;
 }
 
 .tool-desc-container img {
-  /* height: 140px; */
+  border-radius: 50%;
+  scale: 1.5;
 }

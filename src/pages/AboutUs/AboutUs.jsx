@@ -2,11 +2,13 @@
 
 import React from 'react'
 import './AboutUs.css'
+import Testimonials from '../../components/Testimonials/Testimonials'
 
 const AboutUs = () => {
   return (
     <div>
-      <h1>About Us</h1>
+
+      <Testimonials />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 .second-section h2 {
   text-align: center;
-  font-size: 45px;
+  font-size: 38px;
+  font-weight: 400;
 }
 
 .second-section .tools-info :nth-child(even) {
