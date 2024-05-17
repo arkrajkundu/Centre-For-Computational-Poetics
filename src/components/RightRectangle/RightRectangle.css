@@ -1,0 +1,33 @@
+.right-rectangle {
+  height: 40rem;
+  width: 20rem;
+  border: 3px solid red;
+  margin-top: 7%;
+  margin-bottom: 1%;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-rectangle h2 {
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.right-rectangle .less-imp,
+.right-rectangle .more-imp {
+  margin-bottom: 20px;
+}
+
+.right-rectangle .contribute span {
+  color: blue;
+  font-weight: 700;
+}
+
+.right-rectangle .more-imp {
+  font-weight: 800;
+}

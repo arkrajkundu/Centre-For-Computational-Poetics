@@ -1,43 +1,40 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import './MainSection.css'
-import MainRectangle from '../MainRectangle/MainRectangle'
 import MainCard from '../MainCard/MainCard'
-import { assets } from '../../assets/assets'
+import LeftRectangle from '../LeftRectangle/LeftRectangle'
+import RightRectangle from '../RightRectangle/RightRectangle'
 
 const MainSection = () => {
 
   return (
     <div className='pooragadbadstructuretha'>
       <div>
-        <div>
-          {<MainRectangle texttop={"Computational Lab, developed by BIT Mesra Computer Science Department. Computational Lab, developed by BIT Mesra Computer Science Department. Computational Lab, developed by BIT Mesra Computer Science Department.  Floating News and others will be displayed here!"}
-          />}
-        </div>
-        <div>
-        </div>
+        <LeftRectangle />
       </div>
       <div className='column'>
         <div class="row1">
-          <div className="box">
-            <div class="glass-overlay">
+          <div className="box r1">
+            {/* <img src={assets.rdl} /> */}
+            <div class="glass-overlay g1">
+
             </div>
             <div class="card-inner">
-              <div class="card-front rdl">
+              <div class="card-front">
                 <div class="card-content">
-                  <MainCard text={"Resource\nDevelopment\nLab"} />
+                  <MainCard text={"   RESOURCE     DEVLOPMENT \n            LAB "} />
                 </div>
               </div>
               <div class="card-back"></div>
             </div>
           </div>
 
-          <div className="box">
-            <div class="glass-overlay"></div>
+          <div className="box r2">
+            <div class="glass-overlay g2"></div>
             <div class="card-inner">
-              <div class="card-front spl">
+              <div class="card-front">
                 <div class="card-content">
-                  <MainCard text={"Speech Processing Lab"} />
+                  <MainCard text={"      SPEECH  PROCESSING \n          LAB"} />
                 </div>
               </div>
               <div class="card-back"></div>
@@ -49,24 +46,30 @@ const MainSection = () => {
         </div>
         <div class="row2">
 
-          <div className="box">
-            <div class="glass-overlay"></div>
+          <div className="box r3">
+
+            <div class="glass-overlay g3">
+
+            </div>
             <div class="card-inner">
-              <div class="card-front hcl">
+              {/* <img src={assets.rdl} alt="" /> */}
+              <div class="card-front">
+                {/*  <img src={assets.rdl} alt="" /> */}
                 <div class="card-content">
-                  <MainCard text={"Heritage Computing Lab"} />
+                  <MainCard text={"    HERITAGE      COMPUTING \n         LAB"} />
+                  {/* <img src={assets.rdl} alt="" /> */}
                 </div>
               </div>
               <div class="card-back"></div>
             </div>
           </div>
 
-          <div className="box">
-            <div class="glass-overlay"></div>
+          <div className="box r4">
+            <div class="glass-overlay g4"></div>
             <div class="card-inner">
-              <div class="card-front ptl">
+              <div class="card-front">
                 <div class="card-content">
-                  <MainCard text={"Poetry Therapeutics Lab"} />
+                  <MainCard text={"        POETIC  THERAPEUTICS \n            LAB "} />
                 </div>
               </div>
               <div class="card-back"></div>
@@ -80,7 +83,7 @@ const MainSection = () => {
         </div>
       </div>
       <div>
-        {<MainRectangle header={"Our current focus"} texttop={"• Poetry for Child Education\n• The Therapeutic Power of Poetry\n\n⚫ Mega Hindi Dictionary"} textbottom={"Wish to contribute?"} invitelink={"Join us!"} />}
+        <RightRectangle />
       </div>
 
     </div>

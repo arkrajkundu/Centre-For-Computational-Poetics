@@ -17,6 +17,13 @@ import shlok3 from './shlok3.png'
 import shlok4 from './shlok4.png'
 import contactUsHeader from './contact-us-header.png'
 import collab1 from './collab1.jpg'
+import rightArrow from './rightArrow.svg'
+import addressIcon from './addressIcon.svg'
+import gmailIcon from './gmailIcon.svg'
+import emailIcon from './emailIcon.svg'
+import linkedinIcon from './linkedinIcon.svg'
+import instagramIcon from './instagramIcon.svg'
+import githubIcon from './githubIcon.svg'
 
 export const assets = {
   LabLogo,
@@ -33,7 +40,14 @@ export const assets = {
   nks,
   itu,
   contactUsHeader,
-  collab1
+  collab1,
+  rightArrow,
+  addressIcon,
+  gmailIcon,
+  linkedinIcon,
+  instagramIcon,
+  githubIcon,
+  emailIcon
 }
 
 export const carouselData = {

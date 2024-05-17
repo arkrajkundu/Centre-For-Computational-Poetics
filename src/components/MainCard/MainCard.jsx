@@ -3,9 +3,12 @@
 import React, { useState } from 'react'
 import './MainCard.css'
 
+/* (props.text).toString() */
+
 const MainCard = (props) => {
-  const [text, setText] = useState(props.text);
+  const [text,SetText] = useState(props.text);
   return (
+    // style={{ background: `url(${img})` }} 
     <div className='card-content'>
       {text}
     </div>

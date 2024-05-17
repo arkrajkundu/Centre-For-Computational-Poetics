@@ -4,17 +4,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   font-size: 19px;
 }
 
-.contact-us-email-address {
-  /* margin-bottom: 15px; */
-}
 
-.contact-us-address {
+.contact-us-footer .text {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-left: 40px;
+}
+
+.contact-us-footer .icon img {
+  height: 75px;
+}
+
+.contact-us-email-address {
+  font-size: 19px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-email-address img {
+  height: 20px;
 }
