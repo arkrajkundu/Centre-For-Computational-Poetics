@@ -8,17 +8,16 @@
   margin-right: 1rem;
   border-radius: 1rem;
   padding: 2rem;
-  font-weight: 600;
+  /* font-weight: 600; */
   display: flex;
   flex-direction: column;
 }
 
 .right-rectangle h2 {
   color: blue;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.right-rectangle .less-imp,
 .right-rectangle .more-imp {
   margin-bottom: 20px;
 }
@@ -29,5 +28,24 @@
 }
 
 .right-rectangle .more-imp {
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.right-rectangle .less-imp li {
+  margin-bottom: 10px;
+}
+
+.right-rectangle .less-imp li ol {
+  list-style: none;
+  /* margin: 0; */
+}
+
+.right-rectangle .hindi-mahakosh-desc {
+  margin-bottom: 10px;
+}
+
+.right-rectangle .less-imp .development-info {
+  margin-top: 5px;
+  margin-left: 10px;
 }

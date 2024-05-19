@@ -2,6 +2,7 @@
   text-align: center;
   font-size: 38px;
   font-weight: 400;
+  margin-bottom: 60px;
 }
 
 .second-section .tools-info :nth-child(even) {
@@ -9,5 +10,5 @@
 }
 
 .second-section .tools-info {
-  margin: 10px 200px;
+  margin: 10px 250px;
 }

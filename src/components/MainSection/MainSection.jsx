@@ -69,7 +69,7 @@ const MainSection = () => {
             <div class="card-inner">
               <div class="card-front">
                 <div class="card-content">
-                  <MainCard text={"        POETIC  THERAPEUTICS \n            LAB "} />
+                  <MainCard text={"        POETRY  THERAPEUTICS \n            LAB "} />
                 </div>
               </div>
               <div class="card-back"></div>

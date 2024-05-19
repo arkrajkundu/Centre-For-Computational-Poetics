@@ -5,10 +5,17 @@
   /* padding-left: 350px; */
   width: 100%;
   border-radius: 1px solid blue;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
+  font-size: 18px;
 }
 
 .tool-desc-container img {
   border-radius: 50%;
-  scale: 1.5;
+  width: 150px;
+  height: 150px;
+  /* scale: 1.5; */
+}
+
+.tool-desc-container p span {
+  font-weight: 600;
 }
