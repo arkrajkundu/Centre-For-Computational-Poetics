@@ -1,7 +1,8 @@
 .pooragadbadstructuretha {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 90px;
+  /* flex-direction: column; */
+  margin-bottom: 25px;
   /* align-items: center; */
 }
 

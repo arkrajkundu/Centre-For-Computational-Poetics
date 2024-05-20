@@ -1,12 +1,24 @@
 /* eslint-disable no-unused-vars */
 
-import React from 'react'
+import React, { useContext } from 'react'
 import './Navbar.css'
 import Button from '../Button/Button'
 import Searchbar from '../Searchbar/Searchbar'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { LoginContext } from '../../contexts/LoginContext'
+import { assets } from '../../assets/assets'
 
 const Navbar = ({ setShowLogin }) => {
+
+  const navigate = useNavigate();
+  const token = useContext(LoginContext);
+
+  const logout = () => {
+    localStorage.removeItem("token");
+    setToken("");
+    navigate("/")
+  }
+
   return (
     <div className='navbar'>
       <ul>
@@ -20,16 +32,21 @@ const Navbar = ({ setShowLogin }) => {
         <Link to='/publications'><Button text='Publications' /></Link>
         <Link><Button text='Resources' /></Link>
         <Link to='/contact-us'><Button text='Contact Us' /></Link>
-        <Button text='Log In' onClick={() => setShowLogin(true)} />
+        <Button text='Log In' onClick={setShowLogin} />
+        {!token ? <Button text='Log In' onClick={setShowLogin} />
+          :
+          <Button text='Log Out' onClick={logout} />}
+        {/* {!token ? <Button text='Log In' onClick={() => setShowLogin(true)} /> */}
+        {/* : <Button text='Log Out' onClick={logout} /> */}
+
+        {/* // <div className='navbar-profile'> */}
+        {/* //   <img src={assets.profileIcon} alt="" /> */}
+        {/* //   <ul className="navbar-profile-dropdown"> */}
+        {/* //     <li onClick={logout}><img src={assets.logoutIcon} alt="" /><p>Logout</p></li> */}
+        {/* //   </ul> */}
+        {/* // </div> */}
+        {/* } */}
       </ul>
-
-      {/* <div className='search-box'>
-        <img className='search_icon' src="icon.png" alt="" />
-        <input type="text" placeholder='Search' />
-
-
-      </div> */}
-
     </div>
   )
 }

@@ -22,3 +22,15 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 900px) {
+  .contact-us-header {
+    flex-direction: column;
+  }
+
+  .contact-us-header-image {
+    width: 80%;
+    height: 100%;
+    border-radius: 15px;
+  }
+}

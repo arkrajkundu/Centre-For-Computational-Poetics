@@ -8,9 +8,9 @@ const RightRectangle = () => {
     <div className='right-rectangle'>
       <h2>Our current focus</h2>
       <ul className='less-imp'>
-        <li>Poetry for Child Education</li>
+        <li>Poetry for Child Development</li>
         <li>Poetry for Mental Health</li>
-        <li>We aim to work for the preservation, promotion, and propagation of poetic wealth of the tribal and link languages of Jharkhand state.</li>
+        <li>We aim to work for the <span>preservation, promotion,</span> and <span>propagation</span> of poetic wealth of the tribal and link languages of Jharkhand state.</li>
         <li>
           Development of well structured:
           <ol className='development-info'>
@@ -23,7 +23,7 @@ const RightRectangle = () => {
           </ol>
         </li>
       </ul>
-      <p className='hindi-mahakosh-desc'>The Hindī Mahākośa is much more than a standard dictionary for it has features which are crucial to literary stylistics of poetic compositions.</p>
+      <p className='hindi-mahakosh-desc'>The Hindī Mahākośa is much more than a standard dictionary for it has features which are crucial to literary stylistics, particularly for poetic compositions.</p>
       {/* <ul className='more-imp'>
         <li>Mega Hindi Dictionary</li>
       </ul> */}

@@ -57,3 +57,9 @@
 .contact-us-submit:active {
   background-color: rgb(45, 250, 182);
 }
+
+@media (max-width: 400px) {
+  .contact-us-main .get-in-touch {
+    font-size: 2rem;
+  }
+}

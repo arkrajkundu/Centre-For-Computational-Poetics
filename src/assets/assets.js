@@ -31,6 +31,12 @@ import RMaGenIcon from './RMaGenIcon.png'
 import FVRCalIcon from './FVRCalIcon.png'
 import FVFoSCalIcon from './FVFoSCalIcon.png'
 import FoSCalIcon from './FoSCalIcon.png'
+import backButton from './back.svg'
+import crossButton from './cross.svg'
+import prevButton from './prev.svg'
+import profileIcon from './profile_icon.png'
+import logoutIcon from './logout_icon.png'
+import wordCloud from './wordCloud.png'
 
 export const assets = {
   LabLogo,
@@ -61,7 +67,13 @@ export const assets = {
   FVRCalIcon,
   RMaGenIcon,
   RPaGenIcon,
-  Text2MatraIcon
+  Text2MatraIcon,
+  backButton,
+  crossButton,
+  prevButton,
+  profileIcon,
+  logoutIcon,
+  wordCloud
 }
 
 export const carouselData = {

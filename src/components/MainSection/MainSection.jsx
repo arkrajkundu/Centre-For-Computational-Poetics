@@ -4,6 +4,7 @@ import './MainSection.css'
 import MainCard from '../MainCard/MainCard'
 import LeftRectangle from '../LeftRectangle/LeftRectangle'
 import RightRectangle from '../RightRectangle/RightRectangle'
+import { Link } from 'react-router-dom'
 
 const MainSection = () => {
 
@@ -13,71 +14,60 @@ const MainSection = () => {
         <LeftRectangle />
       </div>
       <div className='column'>
-        <div class="row1">
+        <div className="row1">
           <div className="box r1">
-            {/* <img src={assets.rdl} /> */}
-            <div class="glass-overlay g1">
-
+            <div className="glass-overlay g1">
             </div>
-            <div class="card-inner">
-              <div class="card-front">
-                <div class="card-content">
-                  <MainCard text={"   RESOURCE     DEVLOPMENT \n            LAB "} />
+            <div className="card-inner">
+              <div className="card-front">
+                <div className="card-content">
+                  <Link to='/home/RDL'><MainCard text={"   RESOURCE     DEVELOPMENT \n            LAB "} /></Link>
                 </div>
               </div>
-              <div class="card-back"></div>
+              <div className="card-back"></div>
             </div>
           </div>
-
           <div className="box r2">
-            <div class="glass-overlay g2"></div>
-            <div class="card-inner">
-              <div class="card-front">
-                <div class="card-content">
+            <div className="glass-overlay g2"></div>
+            <div className="card-inner">
+              <div className="card-front">
+                <div className="card-content">
                   <MainCard text={"      SPEECH  PROCESSING \n          LAB"} />
                 </div>
               </div>
-              <div class="card-back"></div>
+              <div className="card-back"></div>
             </div>
           </div>
-
           {/* <div className="box"><MainCard text={"Dictionaries"}/></div>
         </div> */}
         </div>
-        <div class="row2">
-
+        <div className="row2">
           <div className="box r3">
-
-            <div class="glass-overlay g3">
-
+            <div className="glass-overlay g3">
             </div>
-            <div class="card-inner">
+            <div className="card-inner">
               {/* <img src={assets.rdl} alt="" /> */}
-              <div class="card-front">
+              <div className="card-front">
                 {/*  <img src={assets.rdl} alt="" /> */}
-                <div class="card-content">
+                <div className="card-content">
                   <MainCard text={"    HERITAGE      COMPUTING \n         LAB"} />
                   {/* <img src={assets.rdl} alt="" /> */}
                 </div>
               </div>
-              <div class="card-back"></div>
+              <div className="card-back"></div>
             </div>
           </div>
-
           <div className="box r4">
-            <div class="glass-overlay g4"></div>
-            <div class="card-inner">
-              <div class="card-front">
-                <div class="card-content">
+            <div className="glass-overlay g4"></div>
+            <div className="card-inner">
+              <div className="card-front">
+                <div className="card-content">
                   <MainCard text={"        POETRY  THERAPEUTICS \n            LAB "} />
                 </div>
               </div>
-              <div class="card-back"></div>
+              <div className="card-back"></div>
             </div>
           </div>
-
-
-
           {/* <div className="box"><MainCard text={"Tools and Documentations"}/></div>
           <div className="box"><MainCard text={"Others.."}/></div> */}
         </div>
@@ -85,12 +75,8 @@ const MainSection = () => {
       <div>
         <RightRectangle />
       </div>
-
     </div>
-
   )
 }
 
 export default MainSection
-
-

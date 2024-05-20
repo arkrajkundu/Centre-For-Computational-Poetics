@@ -4,6 +4,10 @@
   /* width: 100%; */
 }
 
+.testimonials {
+  /* border: 5px solid purple; */
+}
+
 .testimonials-container h2 {
   font-size: 45px;
   text-align: center;
@@ -16,4 +20,17 @@
   /* background-color: #FFE6EF; */
   /* Lighter Pink */
   /* box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1), -10px -10px 30px rgba(255, 255, 255, 0.7); */
+}
+
+@media (max-width: 1200px) {
+  .testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .testimonials-container {
+    width: 80vw;
+  }
 }

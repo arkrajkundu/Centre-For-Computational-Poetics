@@ -1,0 +1,78 @@
+.virtual-keyboard{
+    width: 650px;
+    height: 200px;
+    min-width: 650px;
+    min-height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #FEFAF6;
+    
+}
+
+h1 {
+    color: #26abde;
+}
+
+.row{
+    
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20%;
+    
+}
+.row-spacebar{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spacebar{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.key{
+    background-color: white;
+    width: 6%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+.key:hover, .delete:hover, .shift:hover, .spacebar:hover{
+    color: blue;
+    border: 2px solid blue;
+
+
+}
+.delete{
+    width:12%;
+    height: 70%;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.shift{
+    width:15%;
+    height: 70%;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+}

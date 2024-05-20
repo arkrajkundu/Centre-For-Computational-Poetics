@@ -6,7 +6,8 @@
   margin-top: 10px;
   background-color: rgb(0, 0, 0);
   color: white;
-  height: 7vh;
+  height: 4vh;
+  font-size: 1.05rem;
 }
 
 .navbar ul {
@@ -17,7 +18,7 @@
 
 .navbar ul li {
   display: inline;
-  font-size: 1.05rem;
+  /* font-size: 1.05rem; */
   font-weight: 600;
   margin: 10px 20px;
   cursor: pointer;
@@ -62,4 +63,42 @@
   margin-left: 0rem;
   width: 1.2rem;
   height: 1rem;
+}
+
+.navbar-profile {
+  position: relative;
+}
+
+.navbar-profile-dropdown {
+  position: absolute;
+  display: none;
+  right: 0;
+  z-index: 1;
+}
+
+.navbar-profile:hover .navbar-profile-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff2ef;
+  padding: 12px 25px;
+  border-radius: 4px;
+  border: 1px solid tomato;
+  outline: 2px solid white;
+  list-style: none;
+}
+
+.navbar-profile-dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.navbar-profile-dropdown img {
+  width: 20px;
+}
+
+.navbar-profile-dropdown li:hover {
+  color: tomato;
 }

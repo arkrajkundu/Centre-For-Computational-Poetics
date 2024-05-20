@@ -5,10 +5,19 @@ export const LoginContext = createContext(null);
 const LoginContextProvider = (props) => {
 
   const [showLogin, setShowLogin] = useState(false);
+  const [token, setToken] = useState("");
+
+  useEffect(() => {
+    if (localStorage.getItem("token")) {
+      setToken(localStorage.getItem("token"));
+    }
+  }, [])
 
   const contextValue = {
     showLogin,
-    setShowLogin
+    setShowLogin,
+    setToken,
+    token,
   }
 
   return (
@@ -17,3 +26,5 @@ const LoginContextProvider = (props) => {
     </LoginContext.Provider>
   )
 }
+
+export default LoginContextProvider;

@@ -1,5 +1,6 @@
 import React from 'react'
 import './NewsComponent.css'
+import { assets } from '../../assets/assets'
 
 const NewsComponent = ({ title, date }) => {
   return (
