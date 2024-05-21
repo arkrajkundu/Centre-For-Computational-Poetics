@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Carousel.css'
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from 'react-icons/bs'
+import { Slide } from 'react-slideshow-image'
+import 'react-slideshow-image/dist/styles.css'
 
 
 const Carousel = ({ data }) => {
@@ -14,8 +16,15 @@ const Carousel = ({ data }) => {
     setSlide(slide === 0 ? data.length - 1 : slide - 1);
   }
 
+  useEffect(() => {
+    const slideInterval = setInterval(() => {
+      nextSlide()
+    }, 3000);
+    return () => clearInterval(slideInterval);
+  }, [slide]);
+
   return (
-    <div className='carousel'>
+    <div className='slide-container'>
       <BsArrowLeftCircleFill className='arrow arrow-left' onClick={prevSlide} />
       {data.map((item, index) => {
         return <img src={item.src} alt={item.alt} key={index} className={slide === index ? "slide" : "slide slide-hidden"} />

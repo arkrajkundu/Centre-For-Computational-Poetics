@@ -17,8 +17,6 @@ const Home = () => {
 
   return (
     <div>
-      {/* <Header /> */}
-      {/* <Navbar /> */}
       <Carousel data={carouselData.slides} />
       <MainSection />
       <SecondSection />

@@ -1,4 +1,4 @@
-.carousel {
+.slide-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
   /* object-fit: contain; */
 }
 
-.carousel img {
+.slide-container img {
   object-fit: cover;
 }
 
