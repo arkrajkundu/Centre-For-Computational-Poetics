@@ -6,7 +6,10 @@ import { assets } from '../../assets/assets'
 const SecondSection = () => {
   return (
     <div className='second-section'>
-      <h2>Poetry Analyzer Tools</h2>
+      <div className="poetry-analyzer-tools">
+        <h2>Poetry Analyzer Tools</h2>
+      </div>
+      {/* <h2>Poetry Analyzer Tools</h2> */}
       <div className="tools-info">
         <ToolDescription className='tool-desc' image={assets.Text2MatraIcon} title={"Text2Mātrā"} desc={"The Text2Mātrā tool provides the numeral scansion for any input text, which can serve as the basis for copious analytical and detection task, such as, to detect chanda type, to detect rhythm pattern, verifying metrical correctness of a given verse, etc."} link={"#"} />
         <ToolDescription className='tool-desc' image={assets.RPaGenIcon} title={"RPaGen"} desc={"The Rhyme Pattern Generator or RPaGen is a tool that can detect the rhyming pattern and access the rhyming quality of input Hindi poems. It can detect three most common types of Hindi metrical compositions."} link={"#"} />

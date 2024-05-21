@@ -1,8 +1,9 @@
-.second-section h2 {
+.second-section .poetry-analyzer-tools h2 {
   text-align: center;
-  font-size: 38px;
+  font-size: 5vh;
   font-weight: 400;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
+  /* z-index: 5; */
 }
 
 .second-section .tools-info :nth-child(even) {
@@ -11,4 +12,8 @@
 
 .second-section .tools-info {
   margin: 10px 250px;
+  background-image: url(../../assets/wordCloud.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }

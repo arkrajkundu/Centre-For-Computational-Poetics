@@ -18,6 +18,11 @@
   gap: 10px;
 }
 
+.contact-us-main form .bottom {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-us-main input {
   margin-bottom: 15px;
   width: 100%;
@@ -62,4 +67,8 @@
   .contact-us-main .get-in-touch {
     font-size: 2rem;
   }
+}
+
+.toast {
+  /* display: none; */
 }

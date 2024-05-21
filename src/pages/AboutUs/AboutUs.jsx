@@ -5,6 +5,7 @@ import './AboutUs.css'
 import Testimonials from '../../components/Testimonials/Testimonials'
 import Vision from '../../components/Vision/Vision'
 import Mission from '../../components/Mission/Mission'
+import TechnicalContributions from '../../components/TechnicalContributions/TechnicalContributions'
 
 const AboutUs = () => {
   return (
@@ -12,6 +13,7 @@ const AboutUs = () => {
       <Vision />
       <Mission />
       <Testimonials />
+      <TechnicalContributions />
     </div>
   )
 }

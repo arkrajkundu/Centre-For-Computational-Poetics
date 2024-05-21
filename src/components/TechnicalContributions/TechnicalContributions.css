@@ -1,0 +1,19 @@
+.technical-contributions {
+  display: flex;
+  /* align-items: center; */
+  margin-left: 50px;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.technical-contributions hr {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.technical-contributions h2 {
+  margin-bottom: 20px;
+  font-size: 3vw;
+  font-weight: 500;
+}

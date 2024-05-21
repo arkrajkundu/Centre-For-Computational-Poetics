@@ -10,7 +10,8 @@ const RightRectangle = () => {
       <ul className='less-imp'>
         <li>Poetry for Child Development</li>
         <li>Poetry for Mental Health</li>
-        <li>We aim to work for the <span>preservation, promotion,</span> and <span>propagation</span> of poetic wealth of the tribal and link languages of Jharkhand state.</li>
+        <li>Apart from the <span>Khadi-Bhasha Hindi</span>, computational analysis of the poetic wealth of its dialects, such as <span>Awadhi</span> and <span>BrajBhasha</span>, is among our priorities.</li>
+        <li>We aim to work for the <em>preservation, promotion,</em> and <em>propagation</em> of poetic wealth of the tribal and link languages of Jharkhand state.</li>
         <li>
           Development of well structured:
           <ol className='development-info'>

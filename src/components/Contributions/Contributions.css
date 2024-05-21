@@ -1,0 +1,8 @@
+.contributions {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.contributions ul li span {
+  font-weight: 700;
+}

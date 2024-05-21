@@ -38,6 +38,12 @@
 
 .right-rectangle .less-imp li span {
   font-style: italic;
+  color: crimson;
+}
+
+.right-rectangle .less-imp li em {
+  font-style: italic;
+  color: brown;
 }
 
 .right-rectangle .less-imp li ol {

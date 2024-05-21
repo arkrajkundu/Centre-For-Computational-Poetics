@@ -1,40 +1,43 @@
-#options-box{
-    width:100vw;
+#options-box {
+    width: 100vw;
     height: 100vh;
     background-color: rgb(225, 107, 107);
     border: 2px solid black;
     border-radius: 5px;
 }
-#option-selector{
+
+#option-selector {
     height: 60%;
-    width:100%;
+    width: 100%;
     display: flex;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content:left;
+    justify-content: left;
     gap: 10%;
     padding-left: 5%;
     padding-right: 2%;
 }
 
-.option-items{
-    width:10%;
+.option-items {
+    width: 10%;
     height: 100%;
-    
+
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.option-items-button{
-    width:12%;
+
+.option-items-button {
+    width: 12%;
     height: 100%;
     background-color: white;
     border-radius: 10px;
-    border:1px solid black;
-   
+    border: 1px solid black;
+
     font-weight: bolder;
 }
-#cross-button{
+
+#cross-button {
     width: 10%;
     height: 100%;
     border: none;
@@ -45,19 +48,20 @@
 }
 
 
-#filter-button{
+#filter-button {
     background-color: white;
-    width:15%;
+    width: 15%;
     height: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left:1%;
+    padding-left: 1%;
 }
-#content{
+
+#content {
     border: 2px solid black;
-    margin:2%;
-    width:96%;
+    margin: 2%;
+    width: 96%;
     height: 94%;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
@@ -66,20 +70,23 @@
     overflow-y: scroll;
 }
 
-.result-item:hover{
+.result-item:hover {
     background-color: rgb(247, 3, 3);
-    color:white;
+    color: white;
 }
-#search{
+
+#search {
     height: 100%;
-    width:90%;
+    width: 90%;
     border: none;
     font-size: medium;
 }
-#search:focus{
+
+#search:focus {
     outline: none;
 }
-#search-box{
+
+#search-box {
     width: 30%;
     height: 60%;
     border-radius: 8px;
@@ -90,8 +97,9 @@
     align-items: center;
     justify-content: space-between;
 }
-#search-back{
-    
+
+#search-back {
+
     width: 100%;
     height: 10%;
     background-color: rgb(255, 255, 255);
@@ -99,29 +107,33 @@
     padding-left: 2%;
     padding-right: 2%;
     align-items: center;
-  
+
     justify-content: space-between;
 }
 
-#content-result{
+#content-result {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-   
+
 }
-::-webkit-scrollbar{
-    width:10px;
+
+::-webkit-scrollbar {
+    width: 10px;
 }
-::-webkit-scrollbar-track{
-    background:rgb(255, 255, 255);
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
     border-left: 1px solid black;
-   
+
 }
-::-webkit-scrollbar-thumb{
-    background: black;   
+
+::-webkit-scrollbar-thumb {
+    background: black;
 }
-#curr-prev{
-    width:100%;
+
+#curr-prev {
+    width: 100%;
     height: 5%;
     padding-left: 4%;
     display: flex;
@@ -129,56 +141,67 @@
     justify-content: start;
     border: 1px solid black;
 }
-#dataset    {
-    
-    width:100%;
+
+#dataset {
+    background-image: url(../../assets//wordCloud.png);
+
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* opacity: 0.5; */
+    /* backdrop-filter: none; */
+    width: 100%;
     height: 90%;
     border: 1px solid black;
     display: flex;
     overflow-y: scroll;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     row-gap: 5%;
     padding-top: 2%;
     gap: 12.5%;
     padding-left: 5%;
     padding-right: 5%;
 }
-#dictionary{
-   
-    width:100%;
+
+#dictionary {
+
+    width: 100%;
     height: 90%;
     border: 1px solid black;
     display: flex;
     overflow-y: scroll;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     row-gap: 5%;
     padding-top: 2%;
     gap: 12.5%;
     padding-left: 5%;
     padding-right: 5%;
-  
+
 }
-#dictionary > button{
-    width:25%;
+
+#dictionary>button {
+    width: 25%;
     height: 12%;
     border-radius: 8px;
 }
-#tools{
-    
-    width:100%;
+
+#tools {
+
+    width: 100%;
     height: 90%;
     border: 1px solid black;
     display: flex;
     overflow-y: scroll;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     row-gap: 5%;
     padding-top: 2%;
     gap: 12.5%;
     padding-left: 5%;
     padding-right: 5%;
 }
-.result-item{
-    width:25%; 
+
+.result-item {
+    width: 25%;
     height: 12%;
     border: 1px solid black;
     display: flex;
@@ -186,15 +209,17 @@
     justify-content: center;
     box-shadow: 0 0 3px 1px black;
     border-radius: 5px;
-   
+
 }
-#content-box{
+
+#content-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
 }
-#back-button{
+
+#back-button {
     display: flex;
     align-items: center;
     justify-content: center;
