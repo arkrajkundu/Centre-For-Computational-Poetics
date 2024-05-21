@@ -30,7 +30,7 @@ const Navbar = ({ setShowLogin }) => {
         <Link to='/news'><Button text='News' /></Link>
         <Link to='/events'><Button text='Events' /></Link>
         <Link to='/publications'><Button text='Publications' /></Link>
-        <Link><Button text='Resources' /></Link>
+        <Link to='/home/RDL'><Button text='Resources' /></Link>
         <Link to='/contact-us'><Button text='Contact Us' /></Link>
         <Button text='Log In' onClick={setShowLogin} />
         {!token ? <Button text='Log In' onClick={setShowLogin} />

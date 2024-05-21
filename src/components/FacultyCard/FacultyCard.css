@@ -10,7 +10,8 @@
   transition: 0.3s;
   border-radius: 20px;
   transform: scale(85%);
-  max-width: 30rem;
+  max-width: 25vw;
+  max-height: 75vh;
 }
 
 .faculty-profile:hover {
@@ -59,4 +60,12 @@
 
 .icons svg {
   margin: 0 5px;
+}
+
+.faculty-profile .branch {
+  white-space: pre-wrap;
+}
+
+.faculty-profile .college {
+  margin-bottom: 10px;
 }
