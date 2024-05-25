@@ -11,7 +11,7 @@ const LoginPopup = ({ setShowLogin }) => {
   const url = "http://localhost:5000";
   const { setToken } = useContext(LoginContext)
 
-  const [currState, setCurrState] = useState("Sign Up");
+  const [currState, setCurrState] = useState("Log In");
   const [data, setData] = useState({
     name: "",
     email: "",

@@ -11,7 +11,7 @@ import { assets } from '../../assets/assets'
 const Navbar = ({ setShowLogin }) => {
 
   const navigate = useNavigate();
-  const token = useContext(LoginContext);
+  const { token, setToken } = useContext(LoginContext);
 
   const logout = () => {
     localStorage.removeItem("token");
@@ -32,20 +32,13 @@ const Navbar = ({ setShowLogin }) => {
         <Link to='/publications'><Button text='Publications' /></Link>
         <Link to='/home/RDL'><Button text='Resources' /></Link>
         <Link to='/contact-us'><Button text='Contact Us' /></Link>
-        <Button text='Log In' onClick={setShowLogin} />
+        {!token ? <Button text='Log In' onClick={setShowLogin} /> : <Button text='Log Out' onClick={logout} />}
+
+
+        {/* <Button text='Log In' onClick={setShowLogin} />
         {!token ? <Button text='Log In' onClick={setShowLogin} />
           :
-          <Button text='Log Out' onClick={logout} />}
-        {/* {!token ? <Button text='Log In' onClick={() => setShowLogin(true)} /> */}
-        {/* : <Button text='Log Out' onClick={logout} /> */}
-
-        {/* // <div className='navbar-profile'> */}
-        {/* //   <img src={assets.profileIcon} alt="" /> */}
-        {/* //   <ul className="navbar-profile-dropdown"> */}
-        {/* //     <li onClick={logout}><img src={assets.logoutIcon} alt="" /><p>Logout</p></li> */}
-        {/* //   </ul> */}
-        {/* // </div> */}
-        {/* } */}
+          <Button text='Log Out' onClick={logout} />} */}
       </ul>
     </div>
   )
