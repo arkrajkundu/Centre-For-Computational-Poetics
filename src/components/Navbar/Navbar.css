@@ -3,11 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   background-color: rgb(0, 0, 0);
   color: white;
-  height: 4vh;
+  height: 5vh;
   font-size: 1.05rem;
+}
+.desktop-menu-texts{
+  margin-left: 4rem;
 }
 
 .navbar ul {
@@ -20,7 +23,7 @@
   display: inline;
   /* font-size: 1.05rem; */
   font-weight: 600;
-  margin: 1rem 1.3rem;
+  margin: 10px 20px;
   cursor: pointer;
 }
 
@@ -101,4 +104,52 @@
 
 .navbar-profile-dropdown li:hover {
   color: tomato;
+}
+
+.hamburger-menu {
+  display: none; /* Initially hide for desktop */
+  cursor: pointer;
+  color: white;
+}
+
+.mobile-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-nav li {
+  margin: 1rem 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none; /* Hide on mobile */
+  }
+
+  .hamburger-menu {
+    display: block; /* Show hamburger menu on mobile */
+    margin-right: 1rem;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4vh;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    width: 50%; /* Adjust width as needed */
+    padding: 1rem;
+    border: 1px solid white;
+    z-index: 1;
+  }
+
+  .mobile-nav li {
+    text-align: center;
+  }
 }
