@@ -19,7 +19,7 @@ const Carousel = ({ data }) => {
   useEffect(() => {
     const slideInterval = setInterval(() => {
       nextSlide()
-    }, 1500);
+    }, 2500);
     return () => clearInterval(slideInterval);
   }, [slide]);
 

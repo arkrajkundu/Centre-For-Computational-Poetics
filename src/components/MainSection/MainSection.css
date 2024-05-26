@@ -133,7 +133,7 @@
 
 .r4 {
   background-image: url(../../assets/health.jpeg);
-  opacity: 1.0;
+  opacity: 0.8;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -282,6 +282,50 @@
     /* Magenta glow */
   }
 }
+
+@media (max-width: 768px) {
+  .pooragadbadstructuretha {
+    display: none;
+  }
+
+  .mobile_left,
+  .mobile_right, 
+  .mobile_cards {
+    display: block;
+  }
+}
+
+/* Laptop/Desktop Styles */
+@media (min-width: 769px) {
+  .mobile_left,
+  .mobile_right,
+  .mobile_cards {
+    display: none;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .pooragadbadstructuretha {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row1,
+  .row2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  .card-content {
+    font-size: 18px;
+  }
+} */
 
 /* .column {
   display: flex;

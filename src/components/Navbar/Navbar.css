@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 1rem;
   background-color: rgb(0, 0, 0);
   color: white;
   height: 4vh;
@@ -20,7 +20,7 @@
   display: inline;
   /* font-size: 1.05rem; */
   font-weight: 600;
-  margin: 10px 20px;
+  margin: 1rem 1.3rem;
   cursor: pointer;
 }
 
