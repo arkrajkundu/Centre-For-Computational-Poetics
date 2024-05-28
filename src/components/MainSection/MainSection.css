@@ -1,6 +1,7 @@
 .pooragadbadstructuretha {
   display: flex;
   justify-content: space-between;
+  /* min-height: 50vw; */
   /* flex-direction: column; */
   /* margin-bottom: 25px; */
   /* align-items: center; */
@@ -291,7 +292,10 @@
   .mobile_left,
   .mobile_right,
   .mobile_cards {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
   }
 }
 
@@ -304,55 +308,3 @@
     display: none;
   }
 }
-
-/* @media (max-width: 768px) {
-  .pooragadbadstructuretha {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .row1,
-  .row2 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .box {
-    width: 90%;
-    height: auto;
-    margin: 1rem 0;
-  }
-
-  .card-content {
-    font-size: 18px;
-  }
-} */
-
-/* .column {
-  display: flex;
-  flex-direction: row;
-  border: 5px solid brown;
-  justify-content: space-between;
-  
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.box {
-  width: 15rem;
-  height: 10rem;
-  border: 3px solid greenyellow;
-  padding: 2%;
-  border-radius: 1rem;
- 
-  width: calc(50% - 10px); 
- 
-  background-color: #ccc;
-  margin: 8px;
- 
-}
- */

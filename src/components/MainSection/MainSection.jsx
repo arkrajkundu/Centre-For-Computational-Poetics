@@ -139,7 +139,7 @@ const MainSection = () => {
         </div>
       </div>
       <div className='mobile_left'>
-        <ul className='left-rectangle'>
+        {/* <ul className='left-rectangle'>
           <li className="left-rectangle-section">Centre for Computational Poetics was set up in the year 2024 at the Department of Computer Science and Engineering, Birla Institute of Technology Mesra.
           </li>
           <li className="left-rectangle-section">This is India's first computing-based research centre focused dedicatedly on the scientific study of the structure, form, and discourse of poems.
@@ -147,12 +147,14 @@ const MainSection = () => {
           <li className="left-rectangle-section">We aim to use both traditional and cutting-edge technologies to highlight and utilize the inherent characteristics of poetry, thereby directly benefiting society in numerous ways.
           </li>
           <li className="left-rectangle-section">The four research labs, established under the umbrella of Centre for Computational Poetics, include: <span>Resource Development Lab, Speech Processing Lab, Heritage Computing Lab, and Poetry Therapeutics Lab</span>.</li>
-        </ul >
+        </ul > */}
+        <LeftRectangle />
 
       </div>
       <div className='mobile_right'>
         <div className='right-rectangle'>
-          <h2>Our current focus</h2>
+          <RightRectangle />
+          {/* <h2>Our current focus</h2>
           <ul className='less-imp'>
             <li>Poetry for Child Development</li>
             <li>Poetry for Mental Health</li>
@@ -170,13 +172,13 @@ const MainSection = () => {
               </ol>
             </li>
           </ul>
-          <p className='hindi-mahakosh-desc'>The Hindī Mahākośa is much more than a standard dictionary for it has features which are crucial to literary stylistics, particularly for poetic compositions.</p>
+          <p className='hindi-mahakosh-desc'>The Hindī Mahākośa is much more than a standard dictionary for it has features which are crucial to literary stylistics, particularly for poetic compositions.</p> */}
           {/* <ul className='more-imp'>
           <li>Mega Hindi Dictionary</li>
         </ul> */}
-          <div className='contribute'>
+          {/* <div className='contribute'>
             <p>Wish to contribute? <Link to='/contact-us'><span>Join us!</span></Link></p>
-          </div>
+          </div> */}
           {/* <img src={assets.wordCloud} alt="" /> */}
         </div>
 
