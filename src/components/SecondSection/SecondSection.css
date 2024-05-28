@@ -1,3 +1,7 @@
+.second-section {
+  margin-top: 12vw;
+}
+
 .second-section .poetry-analyzer-tools h2 {
   text-align: center;
   font-size: 3vw;
@@ -19,5 +23,9 @@
 @media (max-width: 768px) {
   .second-section .tools-info {
     margin: 10vw 10vw;
+  }
+
+  .second-section .poetry-analyzer-tools h2 {
+    font-size: 5vw;
   }
 }

@@ -11,3 +11,9 @@
   white-space: pre-wrap;
 
 }
+
+@media (max-width: 768px) {
+  .card-content {
+    /* height: 100vh; */
+  }
+}

@@ -7,6 +7,7 @@
   /* align-items: center; */
 }
 
+
 .row1 {
   display: flex;
   /* flex-wrap: wrap; */
@@ -148,12 +149,13 @@
   left: 0;
   width: 100%;
   height: 100%;
+  /* gap: 100px; */
   /* background-color: rgba(255, 102, 102, 0.2); */
 
   pointer-events: none;
   /*  Allows: click-through ; */
   transition: opacity 0.3s ease;
-  border-radius: 1rem;
+  border-radius: 1vw;
   z-index: 1;
   opacity: 0;
   background-image: url(../../assets/binary.jpeg);
@@ -226,10 +228,10 @@
 }
 
 .card-content {
-  padding: 50%;
+  padding: 9vw;
   /*  color: white; /* Make text transparent */
   /*  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4), 0 0 40px rgba(255, 255, 255, 0.2);  */
-  font-size: 25px;
+  font-size: 1.5vw;
   /* Adjt as needed */
   color: #fff;
   /* Bright text color */
@@ -289,13 +291,55 @@
     display: none;
   }
 
+  .card-content {
+    padding: 8vh;
+    font-size: 3vw;
+  }
+
   .mobile_left,
   .mobile_right,
   .mobile_cards {
+    /* font-size: 30vw; */
     display: flex;
     align-items: center;
     justify-content: center;
     /* flex-direction: column; */
+  }
+
+  .box,
+  .r1,
+  .r2,
+  .r3,
+  .r4 {
+    width: 40vw;
+    height: 20vh;
+  }
+
+  .mobile_cards .column {
+    width: 100%;
+  }
+
+  .row1,
+  .row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+  }
+
+  /* 
+  .mobile_cards {
+    height: 100vh;
+    width: 100vw;
+  } */
+
+  /* .mobile_cards .column {
+    height: 100vh;
+    width: 100vw;
+  } */
+
+  .mobile_cards {
+    /* border: 1px solid blue; */
   }
 }
 
